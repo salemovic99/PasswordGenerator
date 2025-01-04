@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(to right , rgb(142, 23, 160) , rgb(6, 6, 76));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .content{
+    padding: 20px;
+  
+}
+
+.container div h2{
+    color: #a087d8;
+    margin-bottom: 15px;
+    font-size: 2em;
+    text-transform: uppercase;
+}
+
+.container div h2 span{
+    color: white;
+    letter-spacing: 2px;
+}
+
+.Line{
+    height: 2px;
+    width: 80%;
+    display: block;
+    background-color: aliceblue;
+    margin-bottom: 10px;
+}
+
+.input-container{
+    padding: 5px 10px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.input-container input{
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 1.2em;
+}
+
+.input-container button{
+    border: none;
+}
+
+.input-container button i{
+    cursor: pointer;
+    background-color: white;
+}
+#btn-generate{
+    margin-top: 20px;
+    padding: 13px 10px;
+    border-radius: 5px;
+    border: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background-color: #a087d8;
+    color: white;
+
+}
+
+.alert{
+    width: 100%;
+    background: linear-gradient(to right , rgba(183, 8, 8, 0.626) , rgb(211, 12, 151));
+    padding: 18px 15px;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 1.2em;
+    text-transform: capitalize;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.fadeIn{
+    opacity: 0;
+    transition: opacity 700ms ease-in;
+}
+.fadeout{
+    opacity: 1;
+    transition: opacity 700ms ease-out;
+}
